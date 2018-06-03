@@ -65,6 +65,7 @@ public class BerlinClockServiceTest {
         
         //VERIFY
         assertEquals(berlinTime.length(), BERLIN_LAMP.length());
+	assertEquals(BERLIN_LAMP, berlinTime);   
     }
 	
 }
